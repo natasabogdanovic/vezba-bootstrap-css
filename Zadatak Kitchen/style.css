@@ -66,14 +66,6 @@ hr {
 }
 
 
-
-/*******************
-Miksini
-********************/
-/*******************
-Hero section
-********************/
-
 header{
   position: absolute;
   top: 0;
@@ -99,41 +91,16 @@ header{
 
   
 }
-/*******************
-Social icons
-********************/
 
-/*******************
-Dishes section
-********************/
-/*******************
-Gallery section
-********************/
-/*******************
-About section
-********************/
 
 h4::first-letter{
   color: red;
 }
-/*******************
-Numbers section
-********************/
+
 
 .numbers{
   background-image: url(img/numbers.jpg);
 }
-/*******************
-Menu section
-********************/
-/*******************
-Testimonials section
-********************/
-/*******************
-Blog section
-********************/
 
 
-/*******************
-Footer
-********************//*# sourceMappingURL=style.css.map */
+
