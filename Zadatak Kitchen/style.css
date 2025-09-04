@@ -87,20 +87,148 @@ header{
   display: flex;
   flex-direction: column;
   padding: 15px;
-  
-
-  
 }
 
+.foot-r{
+  margin-right: 200px;
+}
+.foot-r svg{
+  margin-left: 5px;
+}
 
 h4::first-letter{
   color: red;
 }
-
-
 .numbers{
   background-image: url(img/numbers.jpg);
+  margin-top: 70px;
 }
 
 
+/********* blog page *******/
 
+
+.blog-content{
+  margin-top: 100px;
+}
+.blog-p img{
+  height: 190px;
+}
+.blog-num{
+  margin-top: 0;
+}
+
+/******* about page *******/
+
+.about-p{
+  margin-top: 150px;
+}
+.about-us{
+  margin-top: 50px;
+}
+@media  screen and (max-width: 768px) {
+  .hero .icons{
+    padding: 10px;
+  }
+  .navbar{
+    font-size: 15px;
+  }
+  .text-hero{
+    width: 80%;
+    margin-left: 50px;
+  }
+  .dish-r{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+   .card {
+    width: 35rem !important;
+    
+  }
+  .gal-r{
+   flex-direction: column;
+   width: 100%;
+  }
+  .abt-r{
+    margin-top: 70px;
+  }
+  .numbers{
+    width: 100%;
+    padding: 15px;
+    margin-top: 50px;
+  }
+ .bl-r .card{
+  margin: 10px;
+ }
+ .footer h6, p{
+  font-size: 12px;
+ }
+ .foot-r{
+  width: 100px;
+ }
+ .foot-r svg{
+  margin: 1px;
+ }
+ .foot-r1{
+  margin-right: 15px;
+ }
+ .foot-r2{
+  margin-right: 15px;
+ }
+ .blog-p img{
+  height: 115px;
+ }
+ .blog-num{
+  margin-top: 0;
+}
+}
+
+@media  screen and (max-width: 575px) {
+  .header{
+    width: 100%;
+    align-items: center;
+  }
+  .text-hero h1{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 50px;
+  }
+  .hero .icons{
+    padding: 2px;
+    flex-direction: row;
+    bottom: 150px;
+    height: 30px;
+  }
+  .hero svg{
+    margin: 15px;
+    margin-top: -18px;
+  }
+   .card{
+   margin: 10px;
+  }
+  .abt-r{
+    flex-direction: column;
+    align-items: center;
+  }
+  .abt-r img{
+    width: 250px;
+    height: auto;
+    padding-right: 50px;
+  }
+   .bl-r .card{
+   margin-left: -85px;
+  }
+   .blog-p img{
+  height: 370px;
+ }
+ .blog-num{
+  margin-top: 0;
+}
+.foot-r{
+  margin-left: 50px;
+}
+.foot-r1{
+  margin-top: 1g5px;
+}
+}
